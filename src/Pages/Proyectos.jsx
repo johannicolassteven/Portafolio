@@ -6,9 +6,6 @@ const ProyectosPage = () => {
     <main>
       <Wrapper className="pag section-center section">
         <article>
-          <div className="title">
-            <h2>Proyectos</h2>
-          </div>
           <div className="container">
             <a href="https://whimsical-hotteok-6f938f.netlify.app/">
               Calculadora
@@ -22,15 +19,8 @@ const ProyectosPage = () => {
 };
 
 const Wrapper = styled.section`
-
-.title{
-  display: flex;
-  justify-content: center;
-}
-
-.container{
-  margin: 2rem;
-}
-
+  .container {
+    margin: 2rem;
+  }
 `;
 export default ProyectosPage;
