@@ -6,12 +6,20 @@ const ProyectosPage = () => {
     <main>
       <Wrapper className="pag section-center section">
         <article>
-          <div className="container">
-            <a href="https://whimsical-hotteok-6f938f.netlify.app/">
-              Calculadora
-            </a>
-            <a href="https://tienda-online-nicolas.netlify.app/">E-comerce</a>
-          </div>
+          <ul>
+            <div className="container">
+              <li>
+                <a href="https://whimsical-hotteok-6f938f.netlify.app/">
+                  Calculadora
+                </a>
+              </li>
+              <li>
+                <a href="https://tienda-online-nicolas.netlify.app/">
+                  E-comerce
+                </a>
+              </li>
+            </div>
+          </ul>
         </article>
       </Wrapper>
     </main>
@@ -19,8 +27,6 @@ const ProyectosPage = () => {
 };
 
 const Wrapper = styled.section`
-  .container {
-    margin: 2rem;
-  }
+ 
 `;
 export default ProyectosPage;
